@@ -43,7 +43,7 @@ export default function Home() {
                                     <td>{items.name}</td>
                                     <td>{items.username}</td>
                                     <td>{items.email}</td>
-                                    <td><Button variant="danger" onClick={()=>handleClick(items.id)}>Delete</Button>{' '}</td>
+                                    <td><Button variant="danger" onClick={()=>handleClick(items.id)}>Delete</Button></td>
                                     </tr>
 
 
