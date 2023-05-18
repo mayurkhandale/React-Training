@@ -1,7 +1,7 @@
 import React from 'react'
-
+import Comman from './Comman'
 export default function About() {
   return (
-    <div>About</div>
+    <div><Comman/></div>
   )
 }
