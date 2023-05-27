@@ -21,6 +21,9 @@ export default function Home() {
        
         
     }
+    const handeChange=()=>{
+        dispatch(updateSelected('mayur'))
+    }
     const handleEdit=(id)=>{
         let edit=window.confirm('are you really want to Edit');
         if(edit){
@@ -28,7 +31,7 @@ export default function Home() {
            }
     }
     return (
-        <div>
+        <div>{state.name} <button onClick={()=>handeChange()}>change Name</button>
          {state.employees.length>0 ?
             <Table striped bordered hover size="sm">
                 <thead>

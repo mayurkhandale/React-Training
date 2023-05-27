@@ -15,7 +15,7 @@ export class EmployeeService{
             "email": "Shanna@melissa.tv",
             isSelected : false
         },
-        {
+        {  
             "id": 3,
             "name": "Clementine Bauch",
             "username": "Samantha",

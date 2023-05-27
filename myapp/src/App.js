@@ -31,7 +31,7 @@ const themes = {
 function App() {
   const [status, setStatus] = useState();
   const [theme, setTheme] = useState("light");
-  //const { currentTheme } = useThemeSwitcher();
+
   const changeTheme = () => {
     console.log('enter')
     if (theme === "light") {
@@ -43,13 +43,13 @@ function App() {
 
   return (
     <ThemeSwitcherProvider defaultTheme={theme} themeMap={themes}>
-      
+   
     <div className="App">
       <div className="row">
         <div className="col text-center mt-5">
           <p className="h3 display-3">Crash  <span className="fw-bold">2023</span></p>
         </div>
-      </div>
+      </div> 
       <Routes>
         <Route path='/' element={<NavBar />}>
           <Route path='home' element={<Home />} />
