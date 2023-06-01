@@ -12,7 +12,7 @@ export const getUserList=()=> async dispatch=>{
     // dispatch({ type: '', payload: response.data });
   }
   catch(error){
-    dispatch(getUserListSuccess(error))
+    dispatch(getUserListFailure(error))
 
   }
 }

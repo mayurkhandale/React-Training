@@ -8,6 +8,7 @@ import {GET_USER_LIST_STARTED,GET_USER_LIST_SUCCESS,GET_USER_LIST_FAILURE} from 
  }
 
  export const getUserListSuccess=(data)=>{
+    console.log(data,'store')
     return {
         type:GET_USER_LIST_SUCCESS,
         payload:{

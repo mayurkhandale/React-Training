@@ -30,6 +30,8 @@ export default function Home() {
              dispatch(editSelected(id))
            }
     }
+
+   
     return (
         <div>{state.name} <button onClick={()=>handeChange()}>change Name</button>
          {state.employees.length>0 ?
@@ -48,7 +50,7 @@ export default function Home() {
                             return(
                                 <>
                                 <tr> 
-                                    <td><input value={items.id} readOnly={true}/></td>
+                                    <td> {items.id} </td>
                                     <td>{items.name}</td>
                                     <td>{items.username}</td>
                                     <td>{items.email}</td>
