@@ -1,4 +1,4 @@
-import {configureStore,applyMiddleware} from  '@reduxjs/toolkit';
+import {configureStore} from  '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
 import rootReducer from './rootReducer';
 import logger from 'redux-logger'

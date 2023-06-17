@@ -14,8 +14,8 @@ const employeeSlice=createSlice({
     reducers:{
         updateSelected:function(state,action){
             console.log(state.name,'1515')
-            state.name=action.payload
-            //state.employees=state.employees.filter(employee=>employee.id!==action.payload)  
+           // state.name=action.payload
+            state.employees=state.employees.filter(employee=>employee.id!==action.payload)  
         },
         editSelected:function(state,action){
             console.log('edit')

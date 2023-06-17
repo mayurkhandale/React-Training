@@ -96,6 +96,7 @@ const ThunkApiTable = () => {
             <Typography id="transition-modal-title" variant="h6" component="h2">
              Modal
             </Typography>
+            
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead
                         style={{ backgroundColor: 'rgb(225 182 225)' }}
@@ -115,7 +116,7 @@ const ThunkApiTable = () => {
                                 // style={idx % 2 == 0 ? { backgroundColor: '#c9c1c9' } : { backgroundColor: '#dfd3d9de' }}
                               
                            >   <TableCell align="right">{rowData?.id}</TableCell>
-                                <TableCell align="right">{rowData?.name}</TableCell>
+                                <TableCell align="rxight">{rowData?.name}</TableCell>
                                 <TableCell align="right">{rowData?.username}</TableCell>
                                 <TableCell align="right">{rowData?.email}</TableCell>
                               

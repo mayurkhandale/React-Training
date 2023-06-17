@@ -7,9 +7,8 @@ import { Link, Outlet } from 'react-router-dom'
 export default function NavBar() {
     return (
         <div>
-
             <Navbar bg="light" expand="lg">
-                <Container>
+                <Container> 
                     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -18,8 +17,7 @@ export default function NavBar() {
                             <Nav.Link ><Link to='/home'>Home</Link></Nav.Link>
                             <Nav.Link ><Link to='/about'>About</Link></Nav.Link>
                             <Nav.Link ><Link to='/contact'>Contact</Link></Nav.Link>
-                            {/* <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link> */}
+                           
 
                         </Nav>
                     </Navbar.Collapse>

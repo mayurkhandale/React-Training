@@ -27,7 +27,7 @@ const userSlice=createSlice({
             state.status='success'
         },
         [getPost.rejected]:(state,action)=>{
-            state.status='falid'
+            state.status='failed'
         }
     }
     // reducers:{
